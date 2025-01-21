@@ -18,6 +18,11 @@ pares = [
     ],
 
     [
+        r"Quem é a garota mais linda do mundo?|Quem é?",
+        ["Essa é facil!", "A Julinha Bunduda 012"]
+    ],
+
+    [
         r"Adeus|Obrigado|Tchau",
         ["Por nada", "De nada", "Até a próxima", "Vai tarde!"]
     ],
@@ -27,6 +32,9 @@ pares = [
 def chatbot():
     print("Olá meu querido programador, vamos conversar?")
     nome = input('Como você quer que eu te chame? ')
+    print('~~'*30)
+    print(f'{"BOT PYTHON":^60}')
+    print('~~'*30)
     chat = Chat(pares, reflections)
 
     while True:
