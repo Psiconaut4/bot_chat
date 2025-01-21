@@ -1,2 +1,1 @@
-# PNL
- Estudos em processamento de linguagem natural
+# Estudos em processamento de linguagem natural
